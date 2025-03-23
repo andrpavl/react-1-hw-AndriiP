@@ -48,3 +48,15 @@ p.heroJumbo {
   font-weight: 200;
   letter-spacing: 4px;
 }
+
+
+.divider {
+  width: 80%;
+  color: gray;
+  margin-top: 16px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  color: grey;
+}
