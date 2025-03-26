@@ -9,7 +9,7 @@ export const Destinations = () => {
 	const [selectedPlanets, setSelectedPlanets] = useState([]);
 	const [planetCounter, setPlanetCounter] = useState(0);
 
-	const onAddOrRemovePlanet = (name, index) => {
+	const onAddOrRemovePlanet = (name) => {
 		setSelectedPlanets((prevSelectedPlanets) => {
 			const isAlreadySelected = prevSelectedPlanets.includes(name);
 
@@ -21,7 +21,7 @@ export const Destinations = () => {
 				setPlanetCounter(updatedPlanets.length);
 				return updatedPlanets;
 			} else {
-        
+
 				const updatedPlanets = [...prevSelectedPlanets, name];
 				setPlanetCounter(updatedPlanets.length);
 				return updatedPlanets;
