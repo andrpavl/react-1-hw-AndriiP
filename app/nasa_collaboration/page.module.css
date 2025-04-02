@@ -10,3 +10,18 @@
   height: 400px;
 
 }
+
+
+.roverImg {
+  width: 100%;
+}
+
+.imgList {
+  display: flex;
+  gap: 16px;
+}
+
+
+.dailyImg {
+  width: 100%;
+}
